@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Oswald:wght@200;300&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Natural_project</title>
+</head>
+<body>
+    <!-- 
+        Defult
+        Primary
+        Secondary
+        Success
+        Danger
+        Warning
+        Info
+        Light
+        Dark
+     -->
+    <header id="header" class="header header-home">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                
+                
+                <a class="navbar-brand logo navbar-dark" href=""><img src="img/logo.png" alt=""></a>
+                <form action="" class="search-box intemsearch">
+                  <div class="input-group search-box-wrapper">
+                    <div class="mobile-search">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                    <input id="search" type="search" placeholder="search" class="form--control">
+                    <button class="search-btn btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                 </div>
+                </form>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="">Marketplace</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Categroies</a></li>
+                        <li class="nav-item"><a class="nav-link" href="">Mint NFT</a></li>
+                    </ul>
+                </div>
+                <div class="wallet">
+                    <button class="wallet-btn btn btn--base btn--sm pill" type="button">
+                       <span class="icon"><i class="fa-solid fa-wallet"></i></span>
+                       <span class="text">Login</span>
+                    </button>
+                </div>
+                
+                
+                
+            </div>
+        </nav>
+    </header>
+    <section class="banner flex-space-around">
+        <div class="banner__shapes">
+            <img class="banner__shape one" src="img/brand1.jpg" alt="Not Found">
+            <img class="banner__shape two" src="img/brand.jpg" alt="Not Found">
+        </div>
+            <div class="container">
+                <div class="row gy-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <h1 class="banner-content_tittle bg-Primary" data-color_word="[2,5,7,9,10]">
+                           Lorem  
+                           <span class="text--base">ipsum</span> 
+                           dolor sit
+                           <span class="text--base">amet</span>
+                           consectetur
+                           <span class="text--base">adipisicing</span>
+                           elit.
+                            <span class="text--base">Molestias,</span>
+                            <span class="text--base">fugit?</span>
+                        </h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sed consequatur eligendi enim. Minus, placeat.</p>
+                        <div class="banner-content-buttons">
+                            <a class="btn btn--base btn--lg pill" href="marketplace">
+                                <span class="icon">
+                                    <i class="fa-solid fa-rocket"></i>
+                                    Explore More
+                                </span>
+                            </a>
+                            <a class="btn btn--base btn--lg pill rakib" href="marketplace">
+                                <span class="icon">
+                                    <i class="fa-solid fa-rocket"></i>
+                                     Sell
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-10">
+                        <div class="banner-thumbl">
+                            <img src="img/pick.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="product-explore pt-120 pb-60">
+        <div class="container">
+            <div class="row gy-4 justify-content-center">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xsm-6">
+                    <div class="nft-card">
+                        <div class="nft-card__thumb">
+                            <a href="#"><img src="img/br.jpg" alt=""></a>
+                        </div>
+                        <div class="nft-card__content">
+                            <div class="nft-card__info">
+                                <div class="nft-card__creator">
+                                    <div class="nft-card__creator-thumb">
+                                        <img src="img/br0.jpg" alt="">
+                                    </div>
+                                    <div class="nft-card__creator-info">
+                                        <span class="nft-card__creator-designation">Creator</span>
+                                        <a class="nft-card__creator-name d-block" href="#">0x2c....A0cB</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nft-card__body">
+                                <div class="nft-card__body-left">
+                                    <h4 class="nft-card__body-tittle">
+                                        <a class="nav-link" href="#">NFTLAB#12</a>
+                                    </h4>
+                                    <span class="nft-card__body-text">Ends in 104 days, 0 Hour</span>
+                                </div>
+                                <div class="nft-card__body-right">
+                                    <button class="nft-card__body-wishlist" data-id="14">
+                                        <span class="icon"><i class="fa-regular fa-heart"></i></span>
+                                        <span class="text wishlistCount">3</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nft-card__footer">
+                                <div class="bid-price">
+                                    <span class="bid-price__text d-block">Price</span>
+                                    <span class="bid-price__currency text--base d-block">0.005 MATIC</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xsm-6">
+                    <div class="nft-card">
+                        <div class="nft-card__thumb">
+                            <a href="#"><img src="img/br1.jpg" alt=""></a>
+                        </div>
+                        <div class="nft-card__content">
+                            <div class="nft-card__info">
+                                <div class="nft-card__creator">
+                                    <div class="nft-card__creator-thumb">
+                                        <img src="img/br0.jpg" alt="">
+                                    </div>
+                                    <div class="nft-card__creator-info">
+                                        <span class="nft-card__creator-designation">Creator</span>
+                                        <a class="nft-card__creator-name d-block" href="#">0x2c....A0cB</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nft-card__body">
+                                <div class="nft-card__body-left">
+                                    <h4 class="nft-card__body-tittle">
+                                        <a class="nav-link" href="#">NFTLAB#12</a>
+                                    </h4>
+                                    <span class="nft-card__body-text">Ends in 104 days, 0 Hour</span>
+                                </div>
+                                <div class="nft-card__body-right">
+                                    <button class="nft-card__body-wishlist" data-id="14">
+                                        <span class="icon"><i class="fa-regular fa-heart"></i></span>
+                                        <span class="text wishlistCount">3</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nft-card__footer">
+                                <div class="bid-price">
+                                    <span class="bid-price__text d-block">Price</span>
+                                    <span class="bid-price__currency text--base d-block">0.005 MATIC</span>
+                                </div>
+                                <div class="bid-content">
+                                    <ul class="bid-content__list">
+                                        <li class="bid-content__item">
+                                            <div class="bid-content__image">
+                                                <img class="bid-content__img" src="img/bid.png" alt="">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <span class="bid-content__text">1 Place BId</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xsm-6">
+                    <div class="nft-card">
+                        <div class="nft-card__thumb">
+                            <a class="image" href="#"><img src="img/br2.jpg" alt=""></a>
+                        </div>
+                        <div class="nft-card__content">
+                            <div class="nft-card__info">
+                                <div class="nft-card__creator">
+                                    <div class="nft-card__creator-thumb">
+                                        <img src="img/br0.jpg" alt="">
+                                    </div>
+                                    <div class="nft-card__creator-info">
+                                        <span class="nft-card__creator-designation">Creator</span>
+                                        <a class="nft-card__creator-name d-block" href="#">0x2c....A0cB</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nft-card__body">
+                                <div class="nft-card__body-left">
+                                    <h4 class="nft-card__body-tittle">
+                                        <a class="nav-link" href="#">NFTLAB#12</a>
+                                    </h4>
+                                    <span class="nft-card__body-text">Ends in 104 days, 0 Hour</span>
+                                </div>
+                                <div class="nft-card__body-right">
+                                    <button class="nft-card__body-wishlist" data-id="14">
+                                        <span class="icon"><i class="fa-regular fa-heart"></i></span>
+                                        <span class="text wishlistCount">3</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nft-card__footer">
+                                <div class="bid-price">
+                                    <span class="bid-price__text d-block">Price</span>
+                                    <span class="bid-price__currency text--base d-block">0.005 MATIC</span>
+                                </div>
+                                <div class="bid-content">
+                                    <ul class="bid-content__list">
+                                        <li class="bid-content__item">
+                                            <div class="bid-content__image">
+                                                <img class="bid-content__img" src="img/bid.png" alt="">
+                                            </div>
+                                        </li>
+                                        <li class="bid-content__item">
+                                            <div class="bid-content__image">
+                                                <img class="bid-content__img" src="img/bid.png" alt="">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <span class="bid-content__text">2 Place BId</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="product-explore pt-120 pb-60">
+        <div class="container">
+            <div class="section-heading">
+                <h2 class="section-heading__title">Tranding NFT</h2>
+            </div>
+            <div class="row gy-4 justify-content-center">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xsm-6">
+                    <div class="nft-card">
+                        <div class="nft-card__thumb">
+                            <a href="#"><img src="img/br.jpg" alt=""></a>
+                        </div>
+                        <div class="nft-card__content">
+                            <div class="nft-card__info">
+                                <div class="nft-card__creator">
+                                    <div class="nft-card__creator-thumb">
+                                        <img src="img/br0.jpg" alt="">
+                                    </div>
+                                    <div class="nft-card__creator-info">
+                                        <span class="nft-card__creator-designation">Creator</span>
+                                        <a class="nft-card__creator-name d-block" href="#">0x3D....8B4B</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nft-card__body">
+                                <div class="nft-card__body-left">
+                                    <h4 class="nft-card__body-tittle">
+                                        <a class="nav-link" href="#">test</a>
+                                    </h4>
+                                    <span class="nft-card__body-text">Ended</span>
+                                </div>
+                                <div class="nft-card__body-right">
+                                    <button class="nft-card__body-wishlist" data-id="14">
+                                        <span class="icon"><i class="fa-regular fa-heart"></i></span>
+                                        <span class="text wishlistCount">3</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nft-card__footer">
+                                <div class="bid-price">
+                                    <span class="bid-price__text d-block">Price</span>
+                                    <span class="bid-price__currency text--base d-block">0.02 MATIC</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xsm-6">
+                    <div class="nft-card">
+                        <div class="nft-card__thumb">
+                            <a class="image" href="#"><img src="img/act.jpg" alt=""></a>
+                        </div>
+                        <div class="nft-card__content">
+                            <div class="nft-card__info">
+                                <div class="nft-card__creator">
+                                    <div class="nft-card__creator-thumb">
+                                        <img src="img/br0.jpg" alt="">
+                                    </div>
+                                    <div class="nft-card__creator-info">
+                                        <span class="nft-card__creator-designation">Creator</span>
+                                        <a class="nft-card__creator-name d-block" href="#">kelly Tyler</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nft-card__body">
+                                <div class="nft-card__body-left">
+                                    <h4 class="nft-card__body-tittle">
+                                        <a class="nav-link" href="#">NFTLAB#06</a>
+                                    </h4>
+                                    <span class="nft-card__body-text">Ends in 4 days, 23 Hour</span>
+                                </div>
+                                <div class="nft-card__body-right">
+                                    <button class="nft-card__body-wishlist" data-id="14">
+                                        <span class="icon"><i class="fa-regular fa-heart"></i></span>
+                                        <span class="text wishlistCount">0</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nft-card__footer">
+                                <div class="bid-price">
+                                    <span class="bid-price__text d-block">Price</span>
+                                    <span class="bid-price__currency text--base d-block">0.009 MATIC</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xsm-6">
+                    <div class="nft-card">
+                        <div class="nft-card__thumb">
+                            <a href="#"><img src="img/act1.jpg" alt=""></a>
+                        </div>
+                        <div class="nft-card__content">
+                            <div class="nft-card__info">
+                                <div class="nft-card__creator">
+                                    <div class="nft-card__creator-thumb">
+                                        <img src="img/br0.jpg" alt="">
+                                    </div>
+                                    <div class="nft-card__creator-info">
+                                        <span class="nft-card__creator-designation">Creator</span>
+                                        <a class="nft-card__creator-name d-block" href="#">0xFA....0cAc</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nft-card__body">
+                                <div class="nft-card__body-left">
+                                    <h4 class="nft-card__body-tittle">
+                                        <a class="nav-link" href="#">NFTLAB#02</a>
+                                    </h4>
+                                    <span class="nft-card__body-text">Ends in 30 days, 20 Hours</span>
+                                </div>
+                                <div class="nft-card__body-right">
+                                    <button class="nft-card__body-wishlist" data-id="14">
+                                        <span class="icon"><i class="fa-regular fa-heart"></i></span>
+                                        <span class="text wishlistCount">1</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nft-card__footer">
+                                <div class="bid-price">
+                                    <span class="bid-price__text d-block">Price</span>
+                                    <span class="bid-price__currency text--base d-block">0.007 MATIC</span>
+                                </div>
+                                <div class="bid-content">
+                                    <ul class="bid-content__list">
+                                        <li class="bid-content__item">
+                                            <div class="bid-content__image">
+                                                <img class="bid-content__img" src="img/bid.png" alt="">
+                                            </div>
+                                        </li>
+                                        <li class="bid-content__item">
+                                            <div class="bid-content__image">
+                                                <img class="bid-content__img" src="img/bid.png" alt="">
+                                            </div>
+                                        </li>
+                                        <li class="bid-content__item">
+                                            <div class="bid-content__image">
+                                                <img class="bid-content__img" src="img/bid.png" alt="">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <span class="bid-content__text">3 Place BId</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xsm-6">
+                    <div class="nft-card">
+                        <div class="nft-card__thumb">
+                            <a href="#"><img src="img/act2.jpg" alt=""></a>
+                        </div>
+                        <div class="nft-card__content">
+                            <div class="nft-card__info">
+                                <div class="nft-card__creator">
+                                    <div class="nft-card__creator-thumb">
+                                        <img src="img/br0.jpg" alt="">
+                                    </div>
+                                    <div class="nft-card__creator-info">
+                                        <span class="nft-card__creator-designation">Creator</span>
+                                        <a class="nft-card__creator-name d-block" href="#">0x2c....A0cB</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nft-card__body">
+                                <div class="nft-card__body-left">
+                                    <h4 class="nft-card__body-tittle">
+                                        <a class="nav-link" href="#">NFTLAB#12</a>
+                                    </h4>
+                                    <span class="nft-card__body-text">Ends in 101 days, 23 Hour</span>
+                                </div>
+                                <div class="nft-card__body-right">
+                                    <button class="nft-card__body-wishlist" data-id="14">
+                                        <span class="icon"><i class="fa-regular fa-heart"></i></span>
+                                        <span class="text wishlistCount">2</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nft-card__footer">
+                                <div class="bid-price">
+                                    <span class="bid-price__text d-block">Price</span>
+                                    <span class="bid-price__currency text--base d-block">0.005 MATIC</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="nft-category pt-120 pb-60">
+        <div class="container">
+            <div class="section-header d-flex flex-wrap aling-items-center justify-content-between gap-2">
+                <h2 class="section-header__title">Featured Categories</h2>
+                <a class="btn btn--base outline view-all" href="#">View ALL
+                    <span class="icon-right"><i class="fa-solid fa-angles-right"></i></span>
+                </a>
+            </div>
+            <div class="row gy-4 justify-content-center">
+                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xsm-6">
+                    <div class="nft-category-item">
+                        <div class="nft-category-item__thumb">
+                           <a class="link" href="#"><img class="w-100" src="img/es.jpg" alt=""></a> 
+                        </div>
+                        <div class="nft-category-item__content">
+                            <h4 class="nft-category-item__title"><a class="nav-link" href="#">Fashion</a></h4>
+                            <p class="nft-category-item__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam at nihil.</p>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xsm-6">
+                    <div class="nft-category-item">
+                        <div class="nft-category-item__thumb">
+                           <a class="link" href="#"><img class="w-100" src="img/es1.jpg" alt=""></a> 
+                        </div>
+                        <div class="nft-category-item__content">
+                            <h4 class="nft-category-item__title"><a class="nav-link" href="#">Music</a></h4>
+                            <p class="nft-category-item__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam at nihil.</p>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xsm-6">
+                    <div class="nft-category-item">
+                        <div class="nft-category-item__thumb">
+                           <a class="link" href="#"><img class="w-100" src="img/es2.jpg" alt=""></a> 
+                        </div>
+                        <div class="nft-category-item__content">
+                            <h4 class="nft-category-item__title"><a class="nav-link" href="#">Gaming</a></h4>
+                            <p class="nft-category-item__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam at nihil.</p>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xsm-6">
+                    <div class="nft-category-item">
+                        <div class="nft-category-item__thumb">
+                           <a class="link" href="#"><img class="w-100" src="img/es3.jpg" alt=""></a> 
+                        </div>
+                        <div class="nft-category-item__content">
+                            <h4 class="nft-category-item__title"><a class="nav-link" href="#">Art</a></h4>
+                            <p class="nft-category-item__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veniam at nihil.</p>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="featured pt-120 pb-60">
+      <div class="container">
+        <div class="section-heading">
+           <h2 class="section-heading__title">Featured Creator</h2>
+        </div>
+        <div class="featured-author-wrapper d-flex flex-wrap aling-items-center justify-content-between gap-3">
+            <div class="featured-author">
+                <div class="featured-author__thumb"><img src="img/kelly.jpg" alt=""></div>
+                <div class="featured-author__conetnt">
+                    <h5 class="featured-author__title">Kelly Tyler</h5>
+                    <span class="featured-author__date">Menber Since March <br> 2023</span>
+                    <a class="btn btn--base btn--xsm" href="#">View Profile</a>
+                </div>
+            </div>
+            <ul class="profile-info">
+                <a class="profile-info__link" href="#">
+                    <h4 class="profile-info__number">4</h4>
+                    <span
+                    class="profile-info__text">Total NFTs</span>
+                </a>
+                <a class="profile-info__link" href="#">
+                    <h4 class="profile-info__number">10</h4>
+                    <span
+                    class="profile-info__text">Following</span>
+                </a>
+                <a class="profile-info__link" href="#">
+                    <h4 class="profile-info__number">50</h4>
+                    <span
+                    class="profile-info__text">Follower</span>
+                </a>
+            </ul>
+        </div>
+        <div class="row gy-4 justify-content-center">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xsm-6">
+                    <div class="nft-card">
+                        <div class="nft-card__thumb">
+                            <a href="#"><img class="url" src="img/kelly22.jpg" alt=""></a>
+                        </div>
+                        <div class="nft-card__content">
+                            <div class="nft-card__info">
+                                <div class="nft-card__creator">
+                                    <div class="nft-card__creator-thumb">
+                                        <img src="img/kelly.jpg" alt="">
+                                    </div>
+                                    <div class="nft-card__creator-info">
+                                        <span class="nft-card__creator-designation">Creator</span>
+                                        <a class="nft-card__creator-name d-block" href="#">Kelly Tyler</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nft-card__body">
+                                <div class="nft-card__body-left">
+                                    <h4 class="nft-card__body-tittle">
+                                        <a class="nav-link" href="#">Cool guy</a>
+                                    </h4>
+                                </div>
+                                <div class="nft-card__body-right">
+                                    <button class="nft-card__body-wishlist" data-id="14">
+                                        <span class="icon"><i class="fa-regular fa-heart"></i></span>
+                                        <span class="text wishlistCount">1</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nft-card__footer">
+                                <div class="bid-price">
+                                    <span class="bid-price__text d-block">Price</span>
+                                    <span class="bid-price__currency text--base d-block">0.005 MATIC</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xsm-6">
+                    <div class="nft-card">
+                        <div class="nft-card__thumb">
+                            <a href="#"><img src="img/br1.jpg" alt=""></a>
+                        </div>
+                        <div class="nft-card__content">
+                            <div class="nft-card__info">
+                                <div class="nft-card__creator">
+                                    <div class="nft-card__creator-thumb">
+                                        <img src="img/kelly.jpg" alt="">
+                                    </div>
+                                    <div class="nft-card__creator-info">
+                                        <span class="nft-card__creator-designation">Creator</span>
+                                        <a class="nft-card__creator-name d-block" href="#">Kelly Tyler</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nft-card__body">
+                                <div class="nft-card__body-left">
+                                    <h4 class="nft-card__body-tittle">
+                                        <a class="nav-link" href="#">NFTLAB#06</a>
+                                    </h4>
+                                    <span class="nft-card__body-text">Ends in 3 days, 20 Hour</span>
+                                </div>
+                                <div class="nft-card__body-right">
+                                    <button class="nft-card__body-wishlist" data-id="14">
+                                        <span class="icon"><i class="fa-regular fa-heart"></i></span>
+                                        <span class="text wishlistCount">0</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nft-card__footer">
+                                <div class="bid-price">
+                                    <span class="bid-price__text d-block">Price</span>
+                                    <span class="bid-price__currency text--base d-block">0.009 MATIC</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-xsm-6">
+                    <div class="nft-card">
+                        <div class="nft-card__thumb">
+                            <a class="image" href="#"><img src="img/kelly2.jpg" alt=""></a>
+                        </div>
+                        <div class="nft-card__content">
+                            <div class="nft-card__info">
+                                <div class="nft-card__creator">
+                                    <div class="nft-card__creator-thumb">
+                                        <img src="img/kelly.jpg" alt="">
+                                    </div>
+                                    <div class="nft-card__creator-info">
+                                        <span class="nft-card__creator-designation">Creator</span>
+                                        <a class="nft-card__creator-name d-block" href="#">Kelly Tyler</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="nft-card__body">
+                                <div class="nft-card__body-left">
+                                    <h4 class="nft-card__body-tittle">
+                                        <a class="nav-link" href="#">NFTLAB#08</a>
+                                    </h4>
+                                    <span class="nft-card__body-text">Ends in 41 days, 23 Hour</span>
+                                </div>
+                                <div class="nft-card__body-right">
+                                    <button class="nft-card__body-wishlist" data-id="14">
+                                        <span class="icon"><i class="fa-regular fa-heart"></i></span>
+                                        <span class="text wishlistCount">1</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="nft-card__footer">
+                                <div class="bid-price">
+                                    <span class="bid-price__text d-block">Price</span>
+                                    <span class="bid-price__currency text--base d-block">0.045 MATIC</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+    </section>
+    <section class="popular-creator pt-120 pb-60">
+       <div class="container">
+          <div class="section-heading">
+            <h2 class="section-heading__title">Top Creator</h2>
+          </div>
+          <div class="row gy-4 justify-content-center">
+            <div class="col-xxl-3 col-sm-12 col-xsm-6">
+              <div class="creator-card">
+                <div class="creator-card__thumbs">
+                   <img src="img/nft.jpg" alt="">
+                </div>
+                <div class="creator-card__content">
+                    <div class="creator-card__creator">
+                        <img src="img/kelly.jpg" alt="">
+                    </div>
+                    <div class="creator-card__followers">
+                        <div class="creator-card__info">
+                            <h5 class="creator-card__title"><a href="#">kelly Tyler</a></h5>
+                            <span class="creator-card__text">
+                                <span class="followercount">0</span>
+                                Followers
+                            </span>
+                        </div>
+                        <button class="creator-card__follow pill follow" type="button" data-user-id="1">
+                            <span class="icon"><i class="fa-solid fa-plus"></i></span>
+                            <span class="text">Follow</span>
+                        </button>
+                        <ul class="creator-card__list profile-info ps-0 mt-2">
+                            <a class="profile-info__link" href="#">
+                                <h5 class="profile-info__number">3</h5>
+                                <span class="profile-info__text">Total NFTs</span>
+                            </a>
+                            <a class="profile-info__link" href="#">
+                                <h5 class="profile-info__number">1</h5>
+                                <span class="profile-info__text">Following</span>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-3 col-sm-12 col-xsm-6">
+                <div class="creator-card">
+                  <div class="creator-card__thumbs">
+                     <img src="img/nft1.jpg" alt="">
+                  </div>
+                  <div class="creator-card__content">
+                      <div class="creator-card__creator">
+                          <img src="img/kelly.jpg" alt="">
+                      </div>
+                      <div class="creator-card__followers">
+                          <div class="creator-card__info">
+                              <h5 class="creator-card__title"><a href="#">0x2r....RoAM</a></h5>
+                              <span class="creator-card__text">
+                                  <span class="followercount">0</span>
+                                  Followers
+                              </span>
+                          </div>
+                          <button class="creator-card__follow pill follow" type="button" data-user-id="1">
+                              <span class="icon"><i class="fa-solid fa-plus"></i></span>
+                              <span class="text">Follow</span>
+                          </button>
+                          <ul class="creator-card__list profile-info ps-0 mt-2">
+                              <a class="profile-info__link" href="#">
+                                  <h5 class="profile-info__number">3</h5>
+                                  <span class="profile-info__text">Total NFTs</span>
+                              </a>
+                              <a class="profile-info__link" href="#">
+                                  <h5 class="profile-info__number">0</h5>
+                                  <span class="profile-info__text">Following</span>
+                              </a>
+                          </ul>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xxl-3 col-sm-12 col-xsm-6">
+                <div class="creator-card">
+                  <div class="creator-card__thumbs">
+                     <img src="img/nft.jpg" alt="">
+                  </div>
+                  <div class="creator-card__content">
+                      <div class="creator-card__creator">
+                          <img src="img/kelly.jpg" alt="">
+                      </div>
+                      <div class="creator-card__followers">
+                          <div class="creator-card__info">
+                              <h5 class="creator-card__title"><a href="#">Quality</a></h5>
+                              <span class="creator-card__text">
+                                  <span class="followercount">3</span>
+                                  Followers
+                              </span>
+                          </div>
+                          <button class="creator-card__follow pill follow" type="button" data-user-id="1">
+                              <span class="icon"><i class="fa-solid fa-plus"></i></span>
+                              <span class="text">Follow</span>
+                          </button>
+                          <ul class="creator-card__list profile-info ps-0 mt-2">
+                              <a class="profile-info__link" href="#">
+                                  <h5 class="profile-info__number">2</h5>
+                                  <span class="profile-info__text">Total NFTs</span>
+                              </a>
+                              <a class="profile-info__link" href="#">
+                                  <h5 class="profile-info__number">1</h5>
+                                  <span class="profile-info__text">Following</span>
+                              </a>
+                          </ul>
+                      </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xxl-3 col-md-6 col-sm-12 col-xsm-6">
+                <div class="creator-card">
+                  <div class="creator-card__thumbs">
+                     <img src="img/nft1.jpg" alt="">
+                  </div>
+                  <div class="creator-card__content">
+                      <div class="creator-card__creator">
+                          <img src="img/kelly.jpg" alt="">
+                      </div>
+                      <div class="creator-card__followers">
+                          <div class="creator-card__info">
+                              <h5 class="creator-card__title"><a href="#">0x83....58</a></h5>
+                              <span class="creator-card__text">
+                                  <span class="followercount">0</span>
+                                  Followers
+                              </span>
+                          </div>
+                          <button class="creator-card__follow pill follow" type="button" data-user-id="1">
+                              <span class="icon"><i class="fa-solid fa-plus"></i></span>
+                              <span class="text">Follow</span>
+                          </button>
+                          <ul class="creator-card__list profile-info ps-0 mt-2">
+                              <a class="profile-info__link" href="#">
+                                  <h5 class="profile-info__number">2</h5>
+                                  <span class="profile-info__text">Total NFTs</span>
+                              </a>
+                              <a class="profile-info__link" href="#">
+                                  <h5 class="profile-info__number">0</h5>
+                                  <span class="profile-info__text">Following</span>
+                              </a>
+                          </ul>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+       </div>
+    </section>
+
+    <section class="nft-blogs pt-120 pb-60">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading d-flex flex-wrap aling-items-center justify-content-between gap-2">
+                        <h2 class="section-heading__title">Letest Blogs</h2>
+                        <a class="btn btn--base outline view-all" href="#">
+                            View All
+                            <span class="icon-right"><i class="fa-solid fa-angles-right"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center gy-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="blogs-item">
+                        <div class="thumb">
+                            <img class="w-100" src="img/blog.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <span class="meta mb-2">
+                                <i class="fa-solid fa-calendar-days"></i>21 Nov, 2023
+                            </span>
+                            <h4 class="title">
+                                <a href="#">
+                                    Fuga odit repellat alias animi totam officiis facere dolore repellat alias.
+                                </a>
+                            </h4>
+                            <p class="desc mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Natus, exercitationem saepe? At, reiciendis aspernatur voluptatum odit 
+                                 explicabo nesciunt consectetur voluptate...
+                            </p>
+                            <a class="read-more-link" href="#">
+                                Read More
+                                <i class="fa-solid fa-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="blogs-item">
+                        <div class="thumb">
+                            <img class="w-100" src="img/logo1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <span class="meta mb-2">
+                                <i class="fa-solid fa-calendar-days"></i>21 Nov, 2023
+                            </span>
+                            <h4 class="title">
+                                <a href="#">
+                                    Fuga odit repellat alias animi totam officiis facere dolore repellat alias.
+                                </a>
+                            </h4>
+                            <p class="desc mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Natus, exercitationem saepe? At, reiciendis aspernatur voluptatum odit 
+                                 explicabo nesciunt consectetur voluptate...
+                            </p>
+                            <a class="read-more-link" href="#">
+                                Read More
+                                <i class="fa-solid fa-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="blogs-item">
+                        <div class="thumb">
+                            <img class="w-100" src="img/logo2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <span class="meta mb-2">
+                                <i class="fa-solid fa-calendar-days"></i>21 Nov, 2023
+                            </span>
+                            <h4 class="title">
+                                <a href="#">
+                                    Fuga odit repellat alias animi totam officiis facere dolore repellat alias.
+                                </a>
+                            </h4>
+                            <p class="desc mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Natus, exercitationem saepe? At, reiciendis aspernatur voluptatum odit 
+                                 explicabo nesciunt consectetur voluptate...
+                            </p>
+                            <a class="read-more-link" href="#">
+                                Read More
+                                <i class="fa-solid fa-right-long"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-area pt-120 pb-60">
+        <div class="container">
+            <div class="footer-top mb-5 d-flex flex-wrap aling-items-center justify-content-between gap-2">
+                <p class="description">
+                    Lorem ipsum dolor sit ametadipisicing elit. Minus, eligendi?
+                </p>
+                <select class="select language-select langsel">
+                    <option value="en" selected="">English</option>
+                    <option value="bn">Bangla</option>
+                    <option value="hn">Hindi</option>
+                </select>
+            </div>
+            <div class="row gy-5">
+                <div class="col-xl-3 col-md-4 col-sm-12">
+                    <div class="footer-item">
+                        <div class="footer-item__logo">
+                            <a class="logo logo-dark" href="#"><img src="img/logo.png" alt=""></a>
+                        </div>
+                        <p class="footer-item__desc">
+                            A non-fungible token (NFT) is a unique digital identifier that cannot be copied, substituted, or subdivided
+                        </p>
+                        <ul class="social-list">
+                            <li class="social-list__item">
+                                <a class="social-list__link" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            </li>
+                            <li class="social-list__item">
+                                <a class="social-list__link" href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li class="social-list__item">
+                                <a class="social-list__link" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li class="social-list__item">
+                                <a class="social-list__link" href="https://www.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-12">
+                    <div class="footer-item">
+                        <h4 class="footer-item__title">
+                            Useful Link
+                        </h4>
+                        <ul class="footer-menu">
+                            <li class="footer-menu__item"><a class="footer-menu__link" href="#">All Item</a></li>
+                            <li class="footer-menu__item"><a class="footer-menu__link" href="#">My Items</a></li>
+                            <li class="footer-menu__item"><a class="footer-menu__link" href="#">My NFT</a></li>
+                            <li class="footer-menu__item"><a class="footer-menu__link" href="#">Creat</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-sm-12">
+                    <div class="footer-item">
+                        <h4 class="footer-item__title">
+                            Site Links
+                        </h4>
+                        <ul class="footer-menu">
+                            <li class="footer-menu__item"><a class="footer-menu__link" href="#">Live Auctions</a></li>
+                            <li class="footer-menu__item"><a class="footer-menu__link" href="#">Wishlist</a></li>
+                            <li class="footer-menu__item"><a class="footer-menu__link" href="#">Privacy Policy</a></li>
+                            <li class="footer-menu__item"><a class="footer-menu__link" href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-md-4 col-md-6 col-sm-12">
+                    <h4 class="footer-item__title">
+                        Live Bidding
+                    </h4>
+                    <div class="latest-bidding">
+                        <div class="latest-bidding__thumb">
+                            <a href="#"><img src="img/act.jpg" alt=""></a>
+                        </div>
+                        <div class="latest-bidding__content">
+                            <h6 class="latest-bidding__title">
+                                <a href="#">Test</a>
+                            </h6>
+                            <span class="latest-bidding__desc">Total Bid 2</span>
+                            <span class="latest-bidding__ent text--base">0.02 MATIC</span>
+                        </div>
+                    </div>
+                    <div class="latest-bidding">
+                        <div class="latest-bidding__thumb">
+                            <a href="#"><img src="img/act1.jpg" alt=""></a>
+                        </div>
+                        <div class="latest-bidding__content">
+                            <h6 class="latest-bidding__title">
+                                <a href="#">NFTLab#06</a>
+                            </h6>
+                            <span class="latest-bidding__desc">Total Bid 0</span>
+                            <span class="latest-bidding__ent text--base">0.005 MATIC</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="footer-item">
+                        <h4 class="footer-item__title">
+                            Subscription newslatter
+                        </h4>
+                        <p class="footer-item__desc">
+                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, omnis. 
+                        </p>
+                        <form id="subscribe" class="subscriber-form" action="#" method="post">
+                            <div class="input-group">
+                                <input id="email" class="form--control form-control" type="email" name="email" placeholder="Email">
+                                <button class="input-group-text subscriber-form__btn btn btn--base" type="submit">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer section py-3">
+            <div class="container">
+                <div class="row gy-3">
+                    <div class="col-md-12 text-center">
+                        <div class="bottom-footer__text">
+                            &copy; 2023
+                            <a class="text--base" href="#">NFTLab</a>
+                            .Design By Rakib
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
